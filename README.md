@@ -1,2 +1,2 @@
-# amazon_arena_app
-Amazon Arena app Logo 
+# Amazon Arena
+د Amazon Arena اپلیکیشن رسمي لوګو.
