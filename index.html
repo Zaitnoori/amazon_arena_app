@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ps" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Arena - د خریدارۍ اپ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-top">
+      <h1>🛒 Amazon Arena</h1>
+      <button class="cart-btn" onclick="toggleCart()">
+        🛍️ کارټ (<span id="cartCount">0</span>)
+      </button>
+    </div>
+    <input type="text" id="searchInput" placeholder="🔍 د محصولاتو لټون..." oninput="searchProducts()">
+  </header>
+
+  <!-- Products Grid -->
+  <main>
+    <h2 class="section-title">زموږ محصولات</h2>
+    <div class="products" id="productsGrid"></div>
+  </main>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h2>🛍️ ستاسو کارټ</h2>
+      <button onclick="toggleCart()">✖</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <p>ټولټال: <strong><span id="cartTotal">0</span> افغانۍ</strong></p>
+      <button class="checkout-btn" onclick="checkout()">د پیرودلو تایید</button>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay" onclick="toggleCart()"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
