@@ -1,0 +1,20 @@
+{
+  "name": "Amazon Arena - د خریدارۍ اپ",
+  "short_name": "Amazon Arena",
+  "description": "د Amazon Arena یو اسانه د خریدارۍ اپلیکیشن چې تاسو کولای شئ محصولات وګورئ، کارټ ته یې اضافه کړئ، او پیرود وکړئ.",
+  "start_url": "/amazon_arena_app/",
+  "display": "standalone",
+  "background_color": "#131921",
+  "theme_color": "#FF9900",
+  "orientation": "portrait",
+  "lang": "ps",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "amazon-arena.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
